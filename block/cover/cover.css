@@ -1,0 +1,15 @@
+.cover {
+  padding: 0 48px;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+

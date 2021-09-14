@@ -1,0 +1,16 @@
+.plase__website {
+  grid-area: url;
+  font-size: 18px;
+  line-height: 1.22;
+  margin: 0;
+  align-self: end;
+  display: grid;
+  row-gap: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .plase__website {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
