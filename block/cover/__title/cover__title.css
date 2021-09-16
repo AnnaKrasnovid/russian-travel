@@ -4,7 +4,6 @@
   line-height: 1.06;
   margin: 245px auto 32px;
   max-width: 560px;
-  min-height: 152px;
   text-align: center;
   z-index: 4;
   position: relative;
@@ -25,6 +24,7 @@
 @media screen and (max-width: 767px) {
   .cover__title{
     margin-top: 33px;
+    margin-bottom: 16px;
     font-size: 32px;
     line-height: 1.09;
     max-width: 288px;

@@ -18,13 +18,14 @@
   right: 0;
   background-color: #2a2c2f;
   opacity: 0.3;
+  transition: opasity 2s linear;
 
-  transition: opasity 1s ease-in;
 }
 
 .cover__background:hover:after {
   opacity: 0.8;
 }
+  
 
 
 

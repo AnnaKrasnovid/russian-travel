@@ -1,4 +1,4 @@
-.plase__paragraph {
+.place__paragraph {
   grid-area: text;
   font-size: 18px;
   line-height: 1.63;
@@ -6,19 +6,20 @@
   margin: 26px 0 0;
 }
 
-.plase__paragraph:nth-of-type(1) {
+.place__paragraph:nth-of-type(1) {
   margin-top: 0;
 }
 
 @media screen and (max-width: 1023px) {
-  .plase__paragraph {
+  .place__paragraph {
     margin-top:25px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .plase__paragraph {
+  .place__paragraph {
     margin-left: 16px;
     margin-right: 16px;
+    font-size: 16px;
   }
 }

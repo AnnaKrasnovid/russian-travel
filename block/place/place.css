@@ -1,4 +1,4 @@
-.plase {
+.place {
   padding-bottom: 80px;
   display: grid;
   column-gap: 40px;
@@ -10,19 +10,19 @@
     "image text";
 }
 
-.plase:nth-of-type(5) {
+.place:nth-of-type(5) {
   padding-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
-  .plase {
+  .place {
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .plase {
+  .place {
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
     padding-bottom: 73px;
@@ -30,7 +30,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .plase{
+  .place{
     padding-bottom: 50px;
     grid-template-columns: 1fr;
     grid-template-areas:

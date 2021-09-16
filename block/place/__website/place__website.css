@@ -1,4 +1,4 @@
-.plase__website {
+.place__website {
   grid-area: url;
   font-size: 18px;
   line-height: 1.22;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .plase__website {
+  .place__website {
     margin-left: 16px;
     margin-right: 16px;
   }
